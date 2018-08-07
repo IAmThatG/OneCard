@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Virtual Card</string>
+    <string name="btn_search_text">Search</string>
+    <string name="rb_national_id_card">National ID Card</string>
+    <string name="rb_voters_card">Voters Card</string>
+    <string name="rb_passport_bio">Passport Bio</string>
+    <string name="rb_bvn_card">BVN Card</string>
+    <string name="rb_school_card">School Card</string>
+    <string name="card_id_label">CARD ID</string>
+    <string name="profile_image_description">profile image</string>
+</resources>
