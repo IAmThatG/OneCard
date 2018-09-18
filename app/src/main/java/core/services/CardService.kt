@@ -1,7 +1,7 @@
 package core.services
 
-import core.Card
 import core.ICardService
+import data.Card
 import data.ICardRepository
 
 

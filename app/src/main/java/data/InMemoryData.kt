@@ -1,8 +1,6 @@
 package data
 
 import com.example.hello.onecard.R
-import core.Card
-import core.Member
 
 class InMemoryData {
 

@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.hello.onecard.R
-import core.Card
 import core.IMemberService
-import core.Member
+import data.Card
+import data.Member
 import org.koin.android.ext.android.inject
 
 class CardActivity : AppCompatActivity() {
@@ -53,7 +53,7 @@ class CardActivity : AppCompatActivity() {
         //assign data to respective view controls
         mEmailTextView.text = member?.email ?: ""
         mMemberNameTextView.text = member?.firstname + " " + member?.lastname ?: ""
-        mCardIdTextView.text = card.cardId
+        mCardIdTextView.text = card.cardNumber
         mMemberIdTextView.text = member?.memberId ?: ""
         mProfilePic.setImageResource(member?.profilePicResourceId ?: R.drawable.default_user)
         mBarCodeImg.setImageResource(card.barcodeResourceId)
@@ -66,7 +66,7 @@ class CardActivity : AppCompatActivity() {
     private fun decideLabel(cardType: String)
     {
         when (cardType.toLowerCase()){
-            ""
+
         }
     }
 }

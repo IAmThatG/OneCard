@@ -1,7 +1,7 @@
 package data
 
-import core.Card
-import core.Member
+import android.arch.persistence.room.Dao
+import android.arch.persistence.room.Query
 
 interface ICardRepository{
     fun selectCards(): MutableList<Card>
@@ -11,5 +11,5 @@ interface ICardRepository{
 
 interface IMemberRepository{
     fun selectMembers(): MutableList<Member>
-    fun selectMemberById(memberId: Int): Member?
+    fun selectMemberById(memberId: Long): Member?
 }
